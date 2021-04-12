@@ -13,6 +13,8 @@
 
 - Materialize.css - component library used with the combination of CSS, HTML and Javascript all in one. Used to display consistency and cleanliness on a webpage.
 
+- Google Fonts - 
+
 
 
 
