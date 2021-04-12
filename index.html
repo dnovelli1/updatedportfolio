@@ -13,8 +13,8 @@
     <header>     
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Jake's Portfolio</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="#!" class="brand-logo">Jake Novelli</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-id-card-alt"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="waves-effect waves-light" target=blank href="https://www.linkedin.com/in/david-jacob-novelli/" alt="This will take you to my linkedin profile!"><i class="fab fa-linkedin"></i></a></li>
                     <li><a target=blank href="https://github.com/dnovelli1" alt="This will take you to my GitHub profile!"><i class="fab fa-github-square"></i></a></li>
@@ -24,20 +24,23 @@
             </div>
         </nav>
         <ul class="sidenav" id="mobile-demo">
-            <li><a target=blank href="https://www.linkedin.com/in/david-jacob-novelli/" alt="This will take you to my linkedin profile!">My LinkedIn Profile</a></li>
-            <li><a target=blank href="https://github.com/dnovelli1" alt="This will take you to my GitHub profile!">My GitHub Profile</i></a></li>
-            <li><a target=blank href="mailto:jakenovelli11@gmail.com" alt="This will autofill my email in a draft in your email!">Contact Me by Email</a></li>
-            <li><a href="callto:17076852450" alt="My phone number is 7076852450">Contact Me by Phone</i></a></li>
+            <li><a target=blank href="https://www.linkedin.com/in/david-jacob-novelli/" alt="This will take you to my linkedin profile!"><i class="fab fa-linkedin"></i>My LinkedIn Profile</a></li>
+            <li><a target=blank href="https://github.com/dnovelli1" alt="This will take you to my GitHub profile!"><i class="fab fa-github-square"></i>My GitHub Profile</a></li>
+            <li><a target=blank href="mailto:jakenovelli11@gmail.com" alt="This will autofill my email in a draft in your email!"><i class="fas fa-envelope-square"></i>Contact Me by Email</a></li>
+            <li><a href="callto:17076852450" alt="My phone number is 7076852450"><i class="fas fa-phone-square"></i>Contact Me by Phone</a></li>
         </ul>
     </header>
     <main class="container">
         <div class="row aboutMe" width="100%" height="100%">
             <div class="card">
                 <div class="card-image">
-                    <img src="./assets/images/shutterstock_1081142213.jpg">
-                    <span class="card-title align-right">A little about me</span>
+                    <img class="activator" src="./assets/images/shutterstock_1081142213.jpg">
                 </div>
                 <div class="card-content">
+                    <span class="card-title activator">Welcome to my Coding Portfolio<i class="far fa-arrow-alt-circle-up right"></i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title activator">About Me<i class="fas fa-times-circle right"></i></span>
                     <p>Hello and welcome to my Professional Coding Portfolio. My name is Jake Novelli and I am 27 years old from the Bay Area of California.</p>
                     <p>I am a future Web Developer who specializes in HTML, CSS, Javascript and Front End frameworks such ass Materialize and Bootstrap.</p>
                     <p>Please have a glimpse into what your website could offer in my "Projects" section below.</p>
@@ -45,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <ul id="projects" class="collapsible">
+        <ul class="collapsible popout">
             <li class="active">
                 <div class="collapsible-header">
                     <i class="far fa-lightbulb"></i>
@@ -56,9 +59,9 @@
                     <img id="restImg1" class="responsive-img" src="./assets/images/project1.PNG" alt="This is a photo of the Expedition Appetite Website">
                 </div>
                 <div id="details1" class="col s12 m8">
-                    <a class="waves-effect waves-light btn" href="">View the Full Site Here!</a>
+                    <a class="waves-effect waves-light btn" target=blank href="https://serenachandler.github.io/Project1/">View the Full Site Here!</a>
                     <br>
-                    <a class="waves-effect waves-light btn" href="">View the GitHub Repository Here!</a>
+                    <a class="waves-effect waves-light btn" target=blank href="https://github.com/SerenaChandler/Project1">View the GitHub Repository Here!</a>
                 </div>
             </li>
             <li>
@@ -71,7 +74,7 @@
                         <img id="restImg2" class="responsive-img" src="./assets/images/weatherdashboard.PNG" alt="This is a photo of the Weather Dashboard Website">
                     </div>
                     <div id="details2" class="col s12 m8">
-                        <a class="waves-effect waves-light btn" href="">View the Full Site Here!</a>
+                        <a class="waves-effect waves-light btn" target=blank href="https://dnovelli1.github.io/weatherdashboard/">View the Full Site Here!</a>
                         <br>
                         <a class="waves-effect waves-light btn" target=blank href="https://github.com/dnovelli1/weatherdashboard">View the GitHub Repository Here!</a>
                     </div>
@@ -90,6 +93,22 @@
                         <a class="waves-effect waves-light btn" target=blank href="https://dnovelli1.github.io/dayplanner/">View the Full Site Here!</a>
                         <br>
                         <a class="waves-effect waves-light btn" target=blank href="https://github.com/dnovelli1/dayplanner">View the GitHub Repository Here!</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="far fa-lightbulb"></i>
+                    Password Generator
+                </div>
+                <div class="collapsible-body row">
+                    <div class="col s12 m4">
+                        <img id="restImg3" class="responsive-img" src="./assets/images/passwordgenerator.PNG" alt="This is a photo of the Password Generator Website">
+                    </div>
+                    <div id="details3" class="col s12 m8">
+                        <a class="waves-effect waves-light btn" target=blank href="https://dnovelli1.github.io/passwordgenerator/">View the Full Site Here!</a>
+                        <br>
+                        <a class="waves-effect waves-light btn" target=blank href="https://github.com/dnovelli1/passwordgenerator">View the GitHub Repository Here!</a>
                     </div>
                 </div>
             </li>
