@@ -24,7 +24,7 @@
 
 Collapsible Popup Container
 
-![Site](assets/images/collapsible.gif)
+![Image](assets/images/collapsible.gif)
 
 
 
