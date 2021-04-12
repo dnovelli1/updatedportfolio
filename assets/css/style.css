@@ -1,5 +1,6 @@
 body {
     background: rgb(88, 85, 85);
+    font-family: 'Patua One', cursive;
 }
 
 :root {
@@ -44,6 +45,10 @@ body {
     color: var(--textcolor);
 }
 
+.card .card-title:hover {
+    color: lightgray
+}
+
 .card p {
     color: var(--textcolor);
 }
@@ -59,12 +64,19 @@ body {
     color: var(--textcolor);
     margin-top: 10px;
 }
+.btn:hover {
+    color: rgb(88, 85, 85);;
+}
 
 .collapsible-header {
     background: var(--backgroundeffect);
     background-size: var(--backgroundsize);
     animation: AnimationName 15s ease infinite;
     color: var(--textcolor);
+}
+
+.collapsible-header:hover {
+    color: rgb(88, 85, 85);;
 }
 
 .page-footer {
@@ -82,3 +94,8 @@ body {
     font-size: 15px;
     color: var(--textcolor);
 }
+
+.footer-text a:hover {
+    color: rgb(88, 85, 85);
+}
+
