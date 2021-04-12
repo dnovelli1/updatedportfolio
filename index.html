@@ -32,21 +32,36 @@
     </header>
     <main class="container">
         <div class="row aboutMe" width="100%" height="100%">
-            <div width="100%" height="100%">
-              <div class="card">
+            <div class="card">
                 <div class="card-image">
-                  <img src="./assets/images/shutterstock_1081142213.jpg">
-                  <span class="card-title">A little about me</span>
+                    <img src="./assets/images/shutterstock_1081142213.jpg">
+                    <span class="card-title align-right">A little about me</span>
                 </div>
                 <div class="card-content">
-                  <p>Hello and welcome to my Professional Coding Portfolio. My name is Jake Novelli and I am 27 years old from the Bay Area of California.</p>
-                  <p>I am a future Web Developer who specializes in HTML, CSS, Javascript and Front End frameworks such ass Materialize and Bootstrap.</p>
-                  <p>Please have a glimpse into what your website could offer in my "Projects" section below.</p>
-                  <p>For business inquiries please choose one of the methods on the top right of the page.</p>
+                    <p>Hello and welcome to my Professional Coding Portfolio. My name is Jake Novelli and I am 27 years old from the Bay Area of California.</p>
+                    <p>I am a future Web Developer who specializes in HTML, CSS, Javascript and Front End frameworks such ass Materialize and Bootstrap.</p>
+                    <p>Please have a glimpse into what your website could offer in my "Projects" section below.</p>
+                    <p>For business inquiries please choose one of the methods on the top right of the page.</p>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+        <ul id="projects" class="collapsible">
+            <li class="active">
+                <div class="collapsible-header">
+                    <i class="far fa-lightbulb"></i>
+                    Expedition Appetite
+                </div>
+                <div class="collapsible-body row">
+                    <div class="col s12 m4">
+                        <img id="restImg1" class="responsive-img" src="./assets/images/project1.PNG" alt="This is a photo of the Expedition Appetite Website">
+                    </div>
+                    <div id="details1" class="col s12 m8">
+                        <a class="waves-effect waves-light btn">View the Full Site Here!</a>
+                        <a class="waves-effect waves-light btn">View the GitHub Repository Here!</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </main>
 
 
@@ -79,6 +94,9 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
+        });
+        $(document).ready(function(){
+            $('.collapsible').collapsible();
         });
     </script>
 </body>
